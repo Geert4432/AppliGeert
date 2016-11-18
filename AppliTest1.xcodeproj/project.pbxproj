@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -193,25 +193,22 @@
 				TargetAttributes = {
 					2FED94EC1DDF8AF300722978 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = A75SC6RV82;
 						ProvisioningStyle = Automatic;
 					};
 					2FED95001DDF8AF300722978 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = A75SC6RV82;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2FED94EC1DDF8AF300722978;
 					};
 					2FED950B1DDF8AF300722978 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = A75SC6RV82;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2FED94EC1DDF8AF300722978;
 					};
 				};
 			};
 			buildConfigurationList = 2FED94E81DDF8AF300722978 /* Build configuration list for PBXProject "AppliTest1" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
