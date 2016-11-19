@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2F2B711DDFF88500CBD7CD /* AppliTest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppliTest1.entitlements; sourceTree = "<group>"; };
 		2FED94ED1DDF8AF300722978 /* AppliTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppliTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FED94F01DDF8AF300722978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FED94F21DDF8AF300722978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +75,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F2F2B721DDFF88B00CBD7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FED94E41DDF8AF300722978 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +89,7 @@
 				2FED95041DDF8AF300722978 /* AppliTest1Tests */,
 				2FED950F1DDF8AF300722978 /* AppliTest1UITests */,
 				2FED94EE1DDF8AF300722978 /* Products */,
+				2F2F2B721DDFF88B00CBD7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +106,7 @@
 		2FED94EF1DDF8AF300722978 /* AppliTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				2F2F2B711DDFF88500CBD7CD /* AppliTest1.entitlements */,
 				2FED94F01DDF8AF300722978 /* AppDelegate.swift */,
 				2FED94F21DDF8AF300722978 /* ViewController.swift */,
 				2FED94F41DDF8AF300722978 /* Main.storyboard */,
@@ -194,6 +204,14 @@
 					2FED94EC1DDF8AF300722978 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					2FED95001DDF8AF300722978 = {
 						CreatedOnToolsVersion = 8.1;
@@ -414,11 +432,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A75SC6RV82;
 				INFOPLIST_FILE = AppliTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test2.AppliTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,11 +447,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A75SC6RV82;
 				INFOPLIST_FILE = AppliTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test2.AppliTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
